@@ -17,5 +17,15 @@
             "Guru\\Store\\": "src/Guru/Store"
         }
     },
+       "extra": {
+        "laravel": {
+            "providers": [
+                "Guru\\Store\\Providers\\StoreServiceProvider"
+            ],
+            "aliases": {
+                "GuruDavy"       : "Guru\\Store\\Facades\\Store"
+            }
+        }
+    },
     "minimum-stability": "dev"
 }
