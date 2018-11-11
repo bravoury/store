@@ -1,0 +1,21 @@
+{
+    "name": "guru/store",
+    "description": "Store package for guru.",
+    "keywords": ["lavalite", "Store"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lavalite",
+            "email": "info@lavalite.org"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Guru\\Store\\": "src/Guru/Store"
+        }
+    },
+    "minimum-stability": "dev"
+}
